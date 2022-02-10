@@ -1,0 +1,13 @@
+sname=input('enter the name')
+sno=int(input('enter the rollno'))
+sgrp=input('enter the group')
+s1=int(input('AFM marks'))
+s2=int(input('JAVA marks'))
+s3=int(input('O.S marks'))
+s4=int(input('TELUGU marks'))
+s5=int(input('ENGLISH marks'))
+s6=int(input('ANALYTICAL SKILLS marks'))
+if s1>=35 and s2>=35 and s3>=35 and s4>=35 and s5>=35 and s6>=35:
+    print('pass')
+else:
+    print('fail')
